@@ -6,6 +6,8 @@ version: '${version}'
 main: redd_rl.proximityTextChat.ProximityTextChat
 api-version: '26.2'
 load: POSTWORLD
+libraries:
+  - "com.moandjiezana.toml:toml4j:0.7.2"
 
 authors: [ redd_rl ]
 website: https://www.redd-rl.com/minecraft-mods/proximity-text-chat

@@ -1,0 +1,12 @@
+[settings]
+maximumReceivingDistance = 30 # Maximum distance before other players lose the ability to hear you.
+globalPrefix = "!" # Prefix to add before the message in order to make it visible for all players.
+cancelMessage = true # If the player's message should be canceled for them if nobody can hear them.
+
+[messages]
+# Available placeholders are:
+# {player} - the player's name
+# {message} - the player's message
+noReader = "&cNobody is around to hear you." # The returned message when nobody is around to hear a player's message.
+spyFormat = "&d&lSPY&r &7» &a{player}: &7{message}" # The format for spy messages, requires permission: proximitytextchat.spy
+globalFormat = "&6&lGlobal: {player}&r &7» &r{message}" # The format for global messages, requires permission: proximitytextchat.global
