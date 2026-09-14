@@ -18,7 +18,7 @@ Available placeholders are:
 `{player}` - the player's name.  
 `{message}` - the player's message.  
 Supports Minecraft's [color formatting system](https://minecraft.wiki/w/Formatting_codes).
-- noReader = 
+- noReader
   - `&cNobody is around to hear you.`
   - The returned message when nobody is around to hear a player's message.
 - spyFormat 
