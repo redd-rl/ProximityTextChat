@@ -14,9 +14,9 @@ A neat little Paper plugin to facilitate Proximity Text Chat between players!
   - If the player's message should be canceled for them if nobody can hear them.
 
 ## Messages
-Available placeholders are.
-`{player}` - the player's name.
-`{message}` - the player's message.
+Available placeholders are:  
+`{player}` - the player's name.  
+`{message}` - the player's message.  
 Supports Minecraft's [color formatting system](https://minecraft.wiki/w/Formatting_codes).
 - noReader = 
   - "&cNobody is around to hear you."
