@@ -19,11 +19,11 @@ Available placeholders are:
 `{message}` - the player's message.  
 Supports Minecraft's [color formatting system](https://minecraft.wiki/w/Formatting_codes).
 - noReader = 
-  - "&cNobody is around to hear you."
+  - `&cNobody is around to hear you.`
   - The returned message when nobody is around to hear a player's message.
 - spyFormat 
-  - "&d&lSPY&r &7» &a{player}: &7{message}"
+  - `&d&lSPY&r &7» &a{player}: &7{message}`
   - The format to use for spy messages, requires permission: proximitytextchat.spy
 - globalFormat
-  - "&6&lGlobal: {player}&r &7» &r{message}"
+  - `&6&lGlobal: {player}&r &7» &r{message}`
   - The format to use for global messages, requires permission: proximitytextchat.global
